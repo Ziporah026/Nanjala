@@ -181,14 +181,3 @@ UPDATE OrderDetails SET Quantity = '5.00' where OrderDetailID = 18
 DELETE FROM Products where ProductID = 1
 
 
-
-
-
-
-
-JOIN Orders ON Customers.CustomerID = Orders.CustomerID
-JOIN OrderDetails ON Orders.OrderID = OrderDetails.OrderID
-JOIN Products ON OrderDetails.ProductID = Products.ProductID
-JOIN Categories ON Products.CategoryID = Categories.CategoryID;
-
-
