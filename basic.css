@@ -1,0 +1,10 @@
+form{
+    max-width: 480px;
+    background: #fafafa;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px black;
+    border-radius: 10px;
+    border: 6px solid #035a72;
+    background-color: burlywood;
+}
