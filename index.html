@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Community Forum</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#forum">Forum</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to the Community Forum</h2>
+            <p>Your place to share and discuss local issues and initiatives.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>This forum is dedicated to connecting community members and fostering discussions on local matters.</p>
+        </div>
+    </section>
+
+    <section id="forum">
+        <div class="container">
+            <h2>Forum</h2>
+            <div class="post-form">
+                <h3>Create a Post</h3>
+                <form id="postForm">
+                    <input type="text" id="postTitle" placeholder="Title" required>
+                    <textarea id="postContent" placeholder="What's on your mind?" required></textarea>
+                    <button type="submit">Post</button>
+                </form>
+            </div>
+            <div class="posts">
+                <h3>Recent Posts</h3>
+                <div id="postsContainer"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required><br>
+                <input type="email" id="email" placeholder="Your Email" required><br>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Community Forum. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
